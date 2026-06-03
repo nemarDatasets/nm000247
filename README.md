@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.nm000247-blue)](https://doi.org/10.82901/nemar.nm000247)
+
 # BigP3BCI Study S1 — 9x8 face/house paradigm (10 healthy subjects)
 
 BigP3BCI Study S1 — 9x8 face/house paradigm (10 healthy subjects).
