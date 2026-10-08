@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "BigP3BCI Study S1 — 9x8 face/house paradigm (10 healthy subjects)",
-  "description": "This dataset contains 32-channel EEG recordings from 10 healthy participants in Study S1 of the BigP3BCI collection. Participants used a P300-based speller with a 9x8 character grid and a face/house stimulus paradigm. Target and non-target events are annotated with HED tags, and the data were recorded with a g.USBamp amplifier at 256 Hz. The data were converted into a BIDS derivative through MOABB from the original PhysioNet deposit.",
-  "methods_description": "EEG was recorded with a g.tec g.USBamp from 32 channels placed according to the standard 10-20 montage, sampled at 256 Hz. The line frequency was 60 Hz. Participants completed a P300 speller task with a calibration phase followed by online testing with feedback. Events were coded as Target or NonTarget, with a trial interval of 0 to 1.0 s.",
+  "description": "This dataset contains 32-channel EEG recordings from 10 healthy participants performing a P300-based brain-computer interface speller task. It uses a 9x8 character grid with a face/house stimulus paradigm (Study S1 of BigP3BCI). Target and non-target events are annotated with HED tags. The dataset is a MOABB-derived version of the large public bigP3BCI collection.",
+  "methods_description": "EEG was recorded with a g.USBamp (g.tec) amplifier at 256 Hz from 32 channels in a standard 10-20 montage, with 60 Hz line frequency. Each participant completed one session in a laboratory setting with online feedback, using a calibration-then-test scheme for P300 detection.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -28,10 +28,7 @@
       "term": "P300"
     },
     {
-      "term": "Brain-Computer Interfaces",
-      "subject_scheme": "MeSH",
-      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
+      "term": "brain-computer interface"
     },
     {
       "term": "speller"
@@ -87,5 +84,5 @@
     ".yaml",
     ".yml"
   ],
-  "source_hash": "84ad0a243112589605010a5f5f17a4b742cee87981590f76798b938d1b110e92"
+  "source_hash": "203fe58caf65a78dd347e424f20ddc62958c6acfb786ab6b88c15c34b21ed325"
 }
