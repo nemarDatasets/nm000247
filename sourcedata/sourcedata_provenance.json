@@ -8,8 +8,8 @@
  "license": "CC-BY-4.0",
  "doi": "10.13026/0byy-ry86",
  "naming": "upstream_filenames_restored",
- "n_files": 120,
- "total_bytes": 1173479760,
+ "n_files": 121,
+ "total_bytes": 1174460675,
  "files": [
   {
    "file": "S1_01/SE001/Test/Face/S1_01_SE001_Face_Test01.edf",
@@ -730,7 +730,24 @@
    "bytes": 9778998,
    "sha256": "36c6fed3fe2226653640d7245537b77da39f776ee75a387cc10ccb4694e06cdf",
    "subject": "10"
+  },
+  {
+   "file": "SHA256SUMS.txt",
+   "bytes": 980915,
+   "sha256": "75ce052ae8626a73b43887c994c4c0d17e5b0d775ad3083f759af20028e32fbb",
+   "subject": null,
+   "url": "https://physionet.org/files/bigp3bci/1.0.0/SHA256SUMS.txt",
+   "how": "loader index: PhysioNet bigP3BCI 1.0.0 SHA256SUMS.txt, byte-identical at physionet.org/files and physionet-open.s3.amazonaws.com; read by moabb.datasets.download.download_if_missing before the recordings; retrieved 2026-10-17"
   }
  ],
- "n_subjects_recorded": 10
+ "n_subjects_recorded": 10,
+ "revisions": [
+  {
+   "date": "2026-10-17",
+   "version": "1.0.4",
+   "added_files": 1,
+   "added_bytes": 980915,
+   "note": "Added SHA256SUMS.txt: PhysioNet's checksum index of bigP3BCI 1.0.0 (https://physionet.org/files/bigp3bci/1.0.0/SHA256SUMS.txt), byte-identical to https://physionet-open.s3.amazonaws.com/bigp3bci/1.0.0/SHA256SUMS.txt, retrieved 2026-10-17. MOABB's Mainsah2025 loader reads it (download_if_missing) to list the recordings of StudyS1 before fetching them; with the file at the root of sourcedata/ the loader takes it from this deposit (lookup by the URL's file name). Checked: 120 of 120 deposited files are in it under bigP3BCI-data/StudyS1/ with the same SHA-256. Subject-less entry: shared by every subject's load."
+  }
+ ]
 }
